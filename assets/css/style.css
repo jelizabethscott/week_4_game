@@ -1,0 +1,67 @@
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background-image: url(../images/crystal_BG.jpg);
+	background-size: 1700px;
+}
+
+.box{
+	background-color: lightblue;
+	width: 50%;
+	position: relative;
+	margin: auto;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+h1{
+	font-size: 50px;
+	font-family: 'Aclonica', sans-serif;
+	text-align: center;
+	color: orange;
+	position: relative;
+}
+
+.box2{
+	background-color: lightblue;
+	width: 50%;
+	position: relative;
+	margin: auto;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+p{
+	font-size: 17px;
+	font-family: 'Josefin Sans', sans-serif; 
+	text-align: center;
+	color: purple;
+	position: relative;
+	line-height: 20px;
+	margin: 10px;
+}
+
+.box3{
+	/*background-color: lightblue;*/
+	width: 50%;
+	position: relative;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.section{
+	background-color: violet; 
+	width: 30%;
+	position: absolute;
+	padding: 60px;
+	margin-left: 132px;
+}
+
+.aside{
+	background-color: violet; 
+	width: 10%;
+	position: relative;
+	padding: 60px;
+	float: right;
+	margin-top: auto;
+	margin-right: 132px;
+}
