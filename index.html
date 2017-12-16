@@ -8,6 +8,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
 <body>
 	<div class= "box">
@@ -23,11 +25,38 @@
 	</div>
 
 	<div class= "box3">
-		<div class="section"></div>
-		<div class="aside"></div>
+		<h2 id=section></h2>	
+
+		<div id="aside">
+			<div>
+				<p>Wins: <span id="wins"></span></p>
+			</div>
+			<div>
+				<p>Losses: <span id="losses"><span></p>
+			</div>
+		</div>
+	</div>
+
+	<div class= "container">
+		<img id="crystal1" src="assets/images/crystal_gp.jpg" alt="c1" width="254" height="150">
+		<img id="crystal2" src="assets/images/crystal_gp.jpg" alt="c2" width="254" height="150">
+		<img id="crystal3" src="assets/images/crystal_gp.jpg" alt="c3" width="254" height="150">
+		<img id="crystal4" src="assets/images/crystal_gp.jpg" alt="c4" width="254" height="150">
+	</div>
+
+	<div class="scoreBox">
+		<h2>Your TOTAL Score is:</h2>
+	</div>
+
+	<div class="scorebox2">
+		<div>
+		<h2><span id="myNum"></span></h2>
+		</div>
 	</div>
 
 
-	<script src="assests/javascript/game.js"></script>
+
+
+	<script src="assets/javascript/game.js"></script>
 </body>
 </html>

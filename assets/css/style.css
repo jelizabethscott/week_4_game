@@ -1,7 +1,7 @@
 body{
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	background-image: url(../images/crystal_BG.jpg);
-	background-size: 1700px;
+	background-size: 2500px;
 }
 
 .box{
@@ -18,7 +18,6 @@ h1{
 	font-family: 'Aclonica', sans-serif;
 	text-align: center;
 	color: orange;
-	position: relative;
 }
 
 .box2{
@@ -28,16 +27,17 @@ h1{
 	margin: auto;
 	padding: 20px;
 	margin-top: 10px;
+	line-height: 30px;
 }
 
 p{
-	font-size: 17px;
+	font-size: 20px;
 	font-family: 'Josefin Sans', sans-serif; 
+	font-weight: bold;
 	text-align: center;
 	color: purple;
-	position: relative;
-	line-height: 20px;
-	margin: 10px;
+	display: inherit;
+	margin: auto;
 }
 
 .box3{
@@ -45,23 +45,113 @@ p{
 	width: 50%;
 	position: relative;
 	margin: auto;
+	padding: 20px;
 	margin-top: 10px;
+	height: 140px;
+	text-align: center;
+	
 }
 
-.section{
+#section{
 	background-color: violet; 
-	width: 30%;
+	width: 25%;
 	position: absolute;
 	padding: 60px;
-	margin-left: 132px;
+	margin-left: 100px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: lightblue;
+
 }
 
-.aside{
+#aside{
 	background-color: violet; 
+	width: 25%;
+	position: relative;
+	float: right;
+	padding: 30px;
+	margin-right: 100px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: lightblue;
+
+}
+
+.container{
+	/*background-color: lightblue;*/
+	width: 50%;
+	position: relative;
+	margin: auto;
+	margin-top: 10px;
+	padding: 20px;
+	text-align: center;
+}
+
+#crystal1{
+	width: 20%;
+	display: inline;
+	margin-right: 40px;	
+	border-style: solid;
+	border-width: 10px;
+	border-color: lightblue;
+}
+
+#crystal2{
+	width: 20%;
+	display: inline;
+	margin-right: 40px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: lightblue;
+}
+
+
+#crystal3{
+	width: 20%;
+	display: inline;
+	margin-right: 40px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: lightblue;
+}
+
+#crystal4{
+	width: 20%;
+	display: inline;
+	border-style: solid;
+	border-width: 10px;
+	border-color: lightblue;
+}
+
+.scoreBox{
+	text-align: center;
+	background-color: violet;
+	width: 20%;
+	position: relative;
+	margin: auto;
+	padding: 20px;
+	margin-top: 10px;
+	border-style: solid;
+	border-width: 10px;	
+	border-color: lightblue;
+}
+
+h2{
+	font-size: 25px;
+	font-family: 'Aclonica', sans-serif;
+	text-align: center;
+	color: black;
+
+}
+.scorebox2{
+	text-align: center;
+	background-color: violet;
 	width: 10%;
 	position: relative;
+	margin: auto;
 	padding: 60px;
-	float: right;
-	margin-top: auto;
-	margin-right: 132px;
+	margin-top: 10px;
+	border-style: solid;
+	border-width: 10px;	
+	border-color: lightblue;
 }
